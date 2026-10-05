@@ -1,4 +1,4 @@
-Cycle 1 Assignments
+OOP Assignment 1
 
 👩‍💻 Student Information
 
@@ -8,7 +8,7 @@ Student Name: Jessica Wael Khalaf
 
 Cohort: Group 3 
 
-Assignment: OOP 1 Assignments (.NET Diploma)
+Assignment: OOP Assignment 1 (.NET Diploma)
 
 
 
@@ -16,65 +16,89 @@ Assignment: OOP 1 Assignments (.NET Diploma)
 
 
 
-This repository contains my solutions for the Cycle 1 assignments of the .NET Diploma at Simulation Academy.
-
-The projects demonstrate fundamental C# concepts, object-oriented programming, encapsulation, data validation, and problem-solving skills.
+This repository contains my solutions for OOP Assignment 1. The projects are C# console applications that demonstrate object-oriented design, encapsulation, validation rules, design patterns, and problem-solving skills.
 
 
 
-📋 Projects
+📋 Parts
 
-\#	Project	Description
+Part Title Description
 
-1	Procedural C++ to OOP C#	Critique of a procedural C++ order system, then redesigned in C# with Customer, Product, Order, and OrderLine classes and no global state.
+1-Procedural C++ to OOP C# ...Critique of a procedural C++ order system, then redesigned in C# with Customer, Product, Order, OrderLine, and Shop classes and no global state.
 
-2	Hotel Reservation System	Console app to manage guests, rooms, and reservations (confirm, check in, check out, cancel, maintenance, availability, total cost) with encapsulation and validation rules.
+2-Hotel Reservation System ...Console app to manage guests, rooms, and reservations (confirm, check in, check out, cancel, maintenance, availability, total cost) with strict encapsulation and business-rule validation.
 
-3	Invoice System Demo	Console demo of an invoice system.
+3-Builder Pattern An invoice demo built with the Builder pattern, plus written answers in Answers.md.
 
-4	LeetCode Solutions	Solutions to LeetCode problems.
+4-LeetCode .. Solution for problem 1679 (Max Number of K-Sum Pairs), with an accepted-submission screenshot.
 
 
 
 📂 Project Structure
 
-Cycle1\_Assignments/
+OOP Assignment 1/
 
 │
 
-├── Procedural\_To\_OOP/
-
-│   ├── cpp-original/
-
-│   │   └── order\_system.cpp
+├── Part1\_ProceduralToOOP/
 
 │   ├── Critique.md
 
-│   └── CSharp/
+│   └── src/ProceduralToOOP/ProceduralToOOP/
+
+│       ├── Customer.cs
+
+│       ├── Product.cs
+
+│       ├── Order.cs
+
+│       ├── OrderLine.cs
+
+│       ├── Shop.cs
+
+│       └── Program.cs
 
 │
 
-├── Hotel\_Reservation\_System/
+├── Part2\_HotelReservationSystem/
 
-│   ├── Program.cs
+│   └── src/HotelReservationSystem/HotelReservationSystem/
 
-│   ├── Hotel.cs
+│       ├── Guests.cs
 
-│   ├── Reservation.cs
+│       ├── Rooms.cs
 
-│   ├── Rooms.cs
+│       ├── Reservation.cs
 
-│   └── Guests.cs
+│       ├── ReservationStatus.cs
+
+│       ├── RoomType.cs
+
+│       ├── Hotel.cs
+
+│       └── Program.cs
 
 │
 
-├── Invoice\_System/
+├── Part3-BuilderPattern/
+
+│   ├── Answers.md
+
+│   └── src/InvoiceDemo/InvoiceDemo/
+
+│       ├── Invoice.cs
+
+│       └── Program.cs
 
 │
 
-├── LeetCode/
+├── Part4\_LeetCode/
 
-│   └── README.md
+│   └── 1679\_MaxNumberOfKSumPairs/
+
+│       ├── Solution.cs
+
+│       └── accepted\_screenshot.png
 
 │
 
@@ -88,7 +112,7 @@ Cycle1\_Assignments/
 
 Clone the repository.
 
-Open the project you want in Visual Studio or JetBrains Rider.
+Open the .sln / .slnx file of the part you want in Visual Studio or JetBrains Rider.
 
 Build the project.
 
